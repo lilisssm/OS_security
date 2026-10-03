@@ -1,5 +1,6 @@
 # 2.1.2 
-whoami (lisa) pwd (home/lisa/os_security)
+whoami (lisa) 
+pwd (home/lisa/os_security)
 # 2.1.3 
 cd /   cd ..
 # 2.1.4 
@@ -16,13 +17,17 @@ ls -la
 # 2.2.1
 mkdir ~/fruits
 # 2.2.2
-cd /   mkdir ~/animals
+cd /
+mkdir ~/animals
 # 2.2.3
 touch /tmp/temp
 # 2.2.4
-echo "Hello" > /tmp/temp   echo "world" >> /tmp/temp   nano tmp/temp
+echo "Hello" > /tmp/temp 
+echo "world" >> /tmp/temp 
+nano tmp/temp
 # 2.2.5
-cd ~/fruits   touch apple && tjuch banana && touch pineaple && touch lion
+cd ~/fruits
+touch apple && tjuch banana && touch pineaple && touch lion
 # 2.2.6
 touch ~/animals/cat.txt ~/animals/dog.txt ~/animals/elephant.txt
 # 2.2.7
@@ -32,17 +37,23 @@ ls ~/fruits/*e
 # 2.2.9
 ls ~/fruits/*a*n*
 # 2.2.10
-cp /etc/passwd ~/passwd_copy   wc -l ~/passwd_copy   ln -s ~/passwd_copy ~/passwd_link   ls -i ~/passwd_link
+cp /etc/passwd ~/passwd_copy
+wc -l ~/passwd_copy 
+ln -s ~/passwd_copy ~/passwd_link 
+ls -i ~/passwd_link
 # 2.2.11
 cat /etc/issue
 # 2.2.12
-cp /etc/issue ~/fruits/apple   cat ~fruits/apple
+cp /etc/issue ~/fruits/apple
+cat ~fruits/apple
 # 2.2.13
-mv ~/fruits/lion ~/animals/   ls ~/animals
+mv ~/fruits/lion ~/animals/
+ls ~/animals
 # 2.2.14
 mv ~/fruits/pineaple ~/fruits/pineapple
 # 2.2.15
-ln ~/.bash_history ~/history_link   ls -l ~/history_link
+ln ~/.bash_history ~/history_link
+ls -l ~/history_link
 # 2.2.16
 rm -r ~/fruits
 # 2.2.17
@@ -66,7 +77,10 @@ sudo cat /etc/shadow
 # 2.4.4
 getent group sudo
 # 2.4.5
-sudo apt update && sudo apt install build-essential   gcc --version   g++ --version   make --version
+sudo apt update && sudo apt install build-essential
+gcc --version
+g++ --version
+make --version
 
 # 2.5.1
 man find
