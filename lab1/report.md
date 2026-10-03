@@ -100,8 +100,8 @@ find . -type f \( -name '*.txt' -o -name '*.sh' \)
 find . -type f -printf '%f %u %g %n %s\n'
 # 2.5.9
 find . -mindepth 1 -type d -empty
-# 2.5.10 find
-. -mindepth 1 -type d -empty -delete
+# 2.5.10
+find . -mindepth 1 -type d -empty -delete
 # 2.5.11
 find . -type f -empty -delete
 # 2.5.12
